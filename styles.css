@@ -1,0 +1,72 @@
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+html {
+  background-color: var(--grey-900);
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+body {
+  background-color: var(--grey-800);
+  border-radius: 25px;
+  margin: auto;
+}
+
+h1 {
+  margin: 0;
+}
+
+.content {
+  padding: 40px 40px;
+}
+
+img {
+  border-radius: 100%;
+}
+
+h1 {
+  color: var(--white);
+}
+
+.address {
+  color: var(--green);
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.tip {
+  color: var(--white);
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+button {
+  width: 300px;
+  margin: auto;
+  background-color: var(--grey-700);
+  border: none;
+  color: var(--white);
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: var(--green);
+  cursor: pointer;
+  color: var(--grey-900);
+}
